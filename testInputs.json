@@ -1,0 +1,569 @@
+[
+  {
+    "id": "wiki_001",
+    "query": "In what years was the 100-metre race first contested at the Summer Olympics for men and for women?",
+    "ideal_answer": "The men’s 100 metres entered the Summer Olympics in 1896; the women’s event followed in 1928.",
+    "top_articles": [
+      "100_metres.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_002",
+    "query": "Was Aaron Baddeley an amateur or a professional when he won the 1999 Australian Open, and when did he turn professional?",
+    "ideal_answer": "Baddeley won the 1999 Australian Open as an amateur. He turned professional in 2000 and successfully defended the title that year.",
+    "top_articles": [
+      "Aaron_Baddeley.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_003",
+    "query": "What injury ended Ben Darwin’s rugby playing career, and in which match did it occur?",
+    "ideal_answer": "A neck injury in Australia’s victory over New Zealand’s All Blacks in the 2003 Rugby World Cup semifinal forced Darwin to retire.",
+    "top_articles": [
+      "Ben_Darwin.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_004",
+    "query": "Which six years did Michael Jordan win NBA championships with the Chicago Bulls?",
+    "ideal_answer": "Jordan won in 1991, 1992, 1993, 1996, 1997, and 1998, forming two runs of three consecutive championships.",
+    "top_articles": [
+      "Michael_Jordan.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_005",
+    "query": "What was historically significant about the New York Rangers’ 1928 Stanley Cup victory, and how early in the team’s history did it happen?",
+    "ideal_answer": "The Rangers became the first NHL franchise based in the United States to win the Stanley Cup. They won in their second season.",
+    "top_articles": [
+      "New_York_Rangers.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_006",
+    "query": "What stadium became Newcastle United’s home when the club took its present form in 1892, and how did it acquire it?",
+    "ideal_answer": "St. James’ Park became the club’s home. Newcastle acquired it by absorbing the assets of the defunct Newcastle West End club.",
+    "top_articles": [
+      "Newcastle_United_F.C..html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_007",
+    "query": "Where is Borderlands 2 set, and whom must the Vault Hunters join forces with to defeat Handsome Jack?",
+    "ideal_answer": "The game is set on Pandora. The Vault Hunters ally with the Crimson Raiders to stop Handsome Jack from unlocking the power of a new Vault.",
+    "top_articles": [
+      "Borderlands_2.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_008",
+    "query": "Why was The Game Awards 2020 held virtually, and which game won Game of the Year?",
+    "ideal_answer": "The ceremony was held virtually because of the COVID-19 pandemic. The Last of Us Part II won Game of the Year.",
+    "top_articles": [
+      "The_Game_Awards_2020.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_009",
+    "query": "What was Stevie Nicks’s debut solo studio album, when was it released, and how did it perform on the Billboard 200?",
+    "ideal_answer": "Her debut solo studio album was Bella Donna, released in 1981. It reached number one on the Billboard 200.",
+    "top_articles": [
+      "Stevie_Nicks.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_010",
+    "query": "Which two Taylor Swift albums released in 2020 did Aaron Dessner collaborate on, and which won the Grammy for Album of the Year?",
+    "ideal_answer": "Dessner collaborated on Folklore and Evermore. Folklore won Album of the Year at the 2021 Grammys.",
+    "top_articles": [
+      "Aaron_Dessner.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_011",
+    "query": "Under what pen name does J. K. Rowling write the Cormoran Strike series, and what genre is that series?",
+    "ideal_answer": "She writes the Cormoran Strike series under the name Robert Galbraith. It is crime fiction.",
+    "top_articles": [
+      "J._K._Rowling.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_012",
+    "query": "Which Richard Powers novels won the 2006 National Book Award for Fiction and the 2019 Pulitzer Prize for Fiction?",
+    "ideal_answer": "The Echo Maker won the 2006 National Book Award for Fiction, and The Overstory won the 2019 Pulitzer Prize for Fiction.",
+    "top_articles": [
+      "Richard_Powers.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_013",
+    "query": "Which Seinfeld character did Michael Richards play, and how many Primetime Emmys for supporting actor in a comedy did he receive for that role?",
+    "ideal_answer": "Richards played Cosmo Kramer and received the Primetime Emmy Award for Outstanding Supporting Actor in a Comedy Series three times for the role.",
+    "top_articles": [
+      "Michael_Richards.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_014",
+    "query": "What business does the gang run in It’s Always Sunny in Philadelphia, and in which neighborhood is it located?",
+    "ideal_answer": "They run Paddy’s Pub, an Irish dive bar in South Philadelphia.",
+    "top_articles": [
+      "It_s_Always_Sunny_in_Philadelphia.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_015",
+    "query": "Which magazine article inspired A Beautiful Day in the Neighborhood, who wrote it, and who plays Fred Rogers in the film?",
+    "ideal_answer": "The film was inspired by Tom Junod’s 1998 Esquire article “Can You Say ... Hero?” Tom Hanks plays Fred Rogers.",
+    "top_articles": [
+      "A_Beautiful_Day_in_the_Neighborhood.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_016",
+    "query": "Who wrote and directed A Brooklyn State of Mind, and what does its central young character learn?",
+    "ideal_answer": "Frank Rainone wrote and directed the film. Its central young character learns the truth about his father’s death.",
+    "top_articles": [
+      "A_Brooklyn_State_of_Mind.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_017",
+    "query": "What short story was The Absent-Minded Professor based on, and what was the title of its 1963 sequel?",
+    "ideal_answer": "It was based on Samuel W. Taylor’s “A Situation of Gravity.” Its 1963 sequel was Son of Flubber.",
+    "top_articles": [
+      "The_Absent-Minded_Professor.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_018",
+    "query": "What was Stephen Weeks’s feature-film debut, and how old was he when he made it?",
+    "ideal_answer": "Weeks made his feature-film debut with I, Monster at age 22.",
+    "top_articles": [
+      "Stephen_Weeks.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_019",
+    "query": "What distinction did Emma Thompson achieve by winning Best Adapted Screenplay at the 68th Academy Awards?",
+    "ideal_answer": "She became the first person to win Oscars for both acting and screenwriting. Her screenplay win was for Sense and Sensibility; she had previously won Best Actress for Howards End.",
+    "top_articles": [
+      "68th_Academy_Awards.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_020",
+    "query": "At the 89th Academy Awards, which film was mistakenly announced as Best Picture, and which film actually won?",
+    "ideal_answer": "La La Land was mistakenly announced as the winner. Moonlight was the actual Best Picture winner.",
+    "top_articles": [
+      "89th_Academy_Awards.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_021",
+    "query": "Which film won the most awards at the 95th Academy Awards, how many did it win, and was Best Picture among them?",
+    "ideal_answer": "Everything Everywhere All at Once won seven awards, the most of the ceremony, including Best Picture.",
+    "top_articles": [
+      "95th_Academy_Awards.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_022",
+    "query": "What was the theme of the 28th Tony Awards, and what did that theme involve?",
+    "ideal_answer": "The theme was “Homecoming.” Film and television stars returned to Broadway to present awards or perform.",
+    "top_articles": [
+      "28th_Tony_Awards.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_023",
+    "query": "Where is the pineapple indigenous, and how do its flowers produce the fruit?",
+    "ideal_answer": "The pineapple is indigenous to South America. Individual flowers of the unpollinated plant fuse to form a multiple fruit.",
+    "top_articles": [
+      "Pineapple.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_024",
+    "query": "What plant gives the canvasback its scientific species name, and what parts of that plant does the duck prefer to eat outside the breeding season?",
+    "ideal_answer": "Its species name, valisineria, comes from the wild celery Vallisneria americana. The duck prefers that plant’s winter buds and rhizomes during the nonbreeding period.",
+    "top_articles": [
+      "Canvasback.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_025",
+    "query": "Which three sites in Qufu make up the San Kong, and when were they collectively listed as a UNESCO World Heritage Site?",
+    "ideal_answer": "They are the Temple of Confucius, the Cemetery of Confucius, and the Kong Family Mansion. They have been collectively listed as a UNESCO World Heritage Site since 1994.",
+    "top_articles": [
+      "Qufu.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_026",
+    "query": "Which two rivers meet at Pittsburgh, and what river do they form?",
+    "ideal_answer": "The Allegheny and Monongahela rivers meet at Pittsburgh to form the Ohio River.",
+    "top_articles": [
+      "Pittsburgh.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_027",
+    "query": "Why was Quincy Hospital originally established in 1890, and what happened to emergency care at its site after the hospital closed in 2014?",
+    "ideal_answer": "It was established to treat local granite workers suffering from dust inhalation. After the hospital closed, Carney Hospital continued operating its emergency department as a stand-alone facility at the site until 2020.",
+    "top_articles": [
+      "Quincy_Medical_Center.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_028",
+    "query": "Why was the Tennessee Centennial and International Exposition in 1897 described as a year late?",
+    "ideal_answer": "It celebrated the centennial of Tennessee’s admission to the Union in 1796, so the actual hundredth anniversary had occurred in 1896.",
+    "top_articles": [
+      "Tennessee_Centennial_and_International_Exposition.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_029",
+    "query": "What happened to the Tennessee Coal, Iron and Railroad Company in 1907 and in 1952?",
+    "ideal_answer": "It merged with United States Steel Corporation in 1907 and operated as a subsidiary for 45 years. In 1952 it became a division of its parent company.",
+    "top_articles": [
+      "Tennessee_Coal,_Iron_and_Railroad_Company.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_030",
+    "query": "What was the first bank established in the Kingdom of Hawaii, who founded it, and in what year?",
+    "ideal_answer": "Bishop & Co. was founded in 1858 by Charles Reed Bishop and William A. Aldrich.",
+    "top_articles": [
+      "U.S._national_banks_of_Hawaii.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_031",
+    "query": "Who signed the Anglo-Dutch Treaty of 1814 on behalf of the British and Dutch governments, and where and when was it signed?",
+    "ideal_answer": "Lord Castlereagh signed for Britain and Hendrik Fagel for the Netherlands. The treaty was signed in London on 13 August 1814.",
+    "top_articles": [
+      "Anglo-Dutch_Treaty_of_1814.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_032",
+    "query": "What dates define the 13-day Cuban Missile Crisis, and why did Kennedy call the naval blockade a “quarantine”?",
+    "ideal_answer": "The crisis lasted from 16 to 28 October 1962. Kennedy called the blockade a “quarantine” to avoid the formal implications of a state of war.",
+    "top_articles": [
+      "Cuban_Missile_Crisis.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_033",
+    "query": "Where and when did USS Maine sink, and which war did the sinking help precipitate?",
+    "ideal_answer": "USS Maine sank in Havana Harbor, Cuba, on 15 February 1898. The sinking contributed to the outbreak of the Spanish–American War in April 1898.",
+    "top_articles": [
+      "USS_Maine_(1889).html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_034",
+    "query": "What duties did USS Mizpah perform during World War II before becoming a school ship, and in what year did that change occur?",
+    "ideal_answer": "Mizpah escorted convoys along the United States East Coast before becoming a school ship in 1944.",
+    "top_articles": [
+      "USS_Mizpah.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_035",
+    "query": "On which mission did Neil Armstrong first fly in space, who flew with him, and what docking milestone did they achieve?",
+    "ideal_answer": "Armstrong first flew in space as command pilot of Gemini 8 in March 1966, with David Scott. They performed the first docking of two spacecraft.",
+    "top_articles": [
+      "Neil_Armstrong.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_036",
+    "query": "What was Pioneer 11’s historic first at Saturn, and on what date did its closest approach occur?",
+    "ideal_answer": "Pioneer 11 was the first spacecraft to encounter Saturn. Its closest approach occurred on 1 September 1979.",
+    "top_articles": [
+      "Pioneer_11.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_037",
+    "query": "What was the title of Stephen Hawking’s doctoral thesis, and who was his doctoral adviser?",
+    "ideal_answer": "His thesis was Properties of Expanding Universes, completed in 1966. His doctoral adviser was Dennis W. Sciama.",
+    "top_articles": [
+      "Stephen_Hawking.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_038",
+    "query": "Which two homeland-security positions was Tom Ridge the first person to hold, and under which president did he serve?",
+    "ideal_answer": "Ridge was the first United States Homeland Security Advisor and the first United States Secretary of Homeland Security. He served under President George W. Bush.",
+    "top_articles": [
+      "Tom_Ridge.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_039",
+    "query": "How many years did Nelson Mandela spend in prison, and what two historic distinctions marked his election as South Africa’s president?",
+    "ideal_answer": "Mandela spent 27 years in prison. He became South Africa’s first Black head of state and its first president elected in a fully representative democratic election.",
+    "top_articles": [
+      "Nelson_Mandela.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_040",
+    "query": "Which two defensive players have won the AP NFL Most Valuable Player Award, and in which years?",
+    "ideal_answer": "Defensive tackle Alan Page won in 1971, and linebacker Lawrence Taylor won in 1986.",
+    "top_articles": [
+      "Associated_Press_NFL_Most_Valuable_Player_Award.html"
+    ],
+    "question_type": "single_article"
+  },
+  {
+    "id": "wiki_041",
+    "query": "Compare Braveheart at the 68th Academy Awards with Titanic at the 70th: how many nominations and wins did each receive, and which won more awards?",
+    "ideal_answer": "Braveheart received 10 nominations and won 5 awards. Titanic received 14 nominations and won 11 awards. Titanic won 6 more awards than Braveheart.",
+    "top_articles": [
+      "68th_Academy_Awards.html",
+      "70th_Academy_Awards.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_042",
+    "query": "Compare the Best Picture winners at the 74th and 78th Academy Awards: name each film, its total wins, and the host of its ceremony.",
+    "ideal_answer": "At the 74th Academy Awards, A Beautiful Mind won Best Picture and four awards in total; Whoopi Goldberg hosted. At the 78th, Crash won Best Picture and three awards in total; Jon Stewart hosted.",
+    "top_articles": [
+      "74th_Academy_Awards.html",
+      "78th_Academy_Awards.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_043",
+    "query": "At the 85th and 89th Academy Awards, did the Best Picture winner also win the most awards? Identify both films in each ceremony.",
+    "ideal_answer": "No. At the 85th ceremony, Argo won Best Picture and three awards, while Life of Pi led with four. At the 89th, Moonlight won Best Picture and three awards, while La La Land led with six.",
+    "top_articles": [
+      "85th_Academy_Awards.html",
+      "89th_Academy_Awards.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_044",
+    "query": "Rank the Best Picture winners of the 68th, 70th, 74th, and 95th Academy Awards by their total wins at those ceremonies, from highest to lowest.",
+    "ideal_answer": "Titanic: 11 wins at the 70th; Everything Everywhere All at Once: 7 at the 95th; Braveheart: 5 at the 68th; A Beautiful Mind: 4 at the 74th.",
+    "top_articles": [
+      "68th_Academy_Awards.html",
+      "70th_Academy_Awards.html",
+      "74th_Academy_Awards.html",
+      "95th_Academy_Awards.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_045",
+    "query": "How did the venues and main television networks differ between the 28th and 52nd Tony Awards?",
+    "ideal_answer": "The 28th Tony Awards were held at the Shubert Theatre in New York City and broadcast by ABC. The 52nd were held at Radio City Music Hall and broadcast by CBS; a documentaries segment was also shown on PBS.",
+    "top_articles": [
+      "28th_Tony_Awards.html",
+      "52nd_Tony_Awards.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_046",
+    "query": "Compare Mulona barnesi, Mulona lapidaria, and Mulona schausi: which occur in Cuba rather than Haiti, and who first described each species and when?",
+    "ideal_answer": "Mulona barnesi and Mulona schausi occur in Cuba; both were first described by William Dewitt Field in 1952. Mulona lapidaria occurs in Haiti and was described by Francis Walker in 1866.",
+    "top_articles": [
+      "Mulona_barnesi.html",
+      "Mulona_lapidaria.html",
+      "Mulona_schausi.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_047",
+    "query": "What processor connection exists between the original Apple II and the Ricoh 2A03 used in the NES, and what 6502 feature was disabled in the Ricoh chip?",
+    "ideal_answer": "The original Apple II used a MOS Technology 6502 processor. The Ricoh 2A03 used a derivative of the 6502 core, with its binary-coded decimal mode disabled.",
+    "top_articles": [
+      "Apple_II_(original).html",
+      "Ricoh_2A03.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_048",
+    "query": "Who founded Apple and Uber, and how many calendar years separate their founding years?",
+    "ideal_answer": "Apple was founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne. Uber was founded in 2009 by Garrett Camp and Travis Kalanick. Their founding years are 33 years apart.",
+    "top_articles": [
+      "Apple_Inc..html",
+      "Uber.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_049",
+    "query": "Which companies formed NCT and Tomorrow X Together, and what releases marked NCT U’s first debut and TXT’s debut?",
+    "ideal_answer": "SM Entertainment formed NCT; NCT U debuted on 9 April 2016 with the double digital single “The 7th Sense” and “Without You.” Big Hit Entertainment formed Tomorrow X Together; TXT debuted on 4 March 2019 with the EP The Dream Chapter: Star.",
+    "top_articles": [
+      "NCT_(group).html",
+      "Tomorrow_X_Together.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_050",
+    "query": "What are the capitals of New South Wales and Queensland, and on what date did Queensland separate from New South Wales?",
+    "ideal_answer": "Sydney is the capital of New South Wales, and Brisbane is the capital of Queensland. Queensland separated from New South Wales on 6 June 1859.",
+    "top_articles": [
+      "New_South_Wales.html",
+      "Queensland.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_051",
+    "query": "The 89.5 FM article lists ABC Classic in Goulburn and Triple J on the Sunshine Coast. Which Australian state is each in, and what is each state’s capital?",
+    "ideal_answer": "ABC Classic in Goulburn is in New South Wales, whose capital is Sydney. Triple J on the Sunshine Coast is in Queensland, whose capital is Brisbane.",
+    "top_articles": [
+      "89.5_FM.html",
+      "New_South_Wales.html",
+      "Queensland.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_052",
+    "query": "Which colleges awarded bachelor’s degrees to James Buchanan and James A. Garfield?",
+    "ideal_answer": "James Buchanan earned his bachelor’s degree at Dickinson College. James A. Garfield earned his at Williams College.",
+    "top_articles": [
+      "James_Buchanan.html",
+      "James_A._Garfield.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_053",
+    "query": "For Abraham Lincoln, James A. Garfield, and William McKinley, give the date each died and the vice president who succeeded him as president.",
+    "ideal_answer": "Lincoln died on 15 April 1865 and was succeeded by Andrew Johnson. Garfield died on 19 September 1881 and was succeeded by Chester A. Arthur. McKinley died on 14 September 1901 and was succeeded by Theodore Roosevelt.",
+    "top_articles": [
+      "Abraham_Lincoln.html",
+      "James_A._Garfield.html",
+      "William_McKinley.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_054",
+    "query": "How did William McKinley open the Tennessee Centennial and International Exposition, and had he begun his presidency earlier that same year?",
+    "ideal_answer": "McKinley opened the exposition remotely from the White House by pressing a button that started machinery at the fair. Yes: his presidency began on 4 March 1897, and the exposition opened on 1 May 1897.",
+    "top_articles": [
+      "Tennessee_Centennial_and_International_Exposition.html",
+      "William_McKinley.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_055",
+    "query": "Compare Neil Armstrong’s and Stephen Hawking’s university education: where did each earn his undergraduate degree and his postgraduate degree?",
+    "ideal_answer": "Armstrong earned a BS at Purdue University and an MS at the University of Southern California. Hawking earned a BA at the University of Oxford and a PhD at the University of Cambridge.",
+    "top_articles": [
+      "Neil_Armstrong.html",
+      "Stephen_Hawking.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_056",
+    "query": "Which band did Stevie Nicks join with Lindsey Buckingham in 1975, and which rock band and indie duo did Aaron Dessner co-found?",
+    "ideal_answer": "Nicks and Buckingham joined Fleetwood Mac in 1975. Dessner co-founded the National and the duo Big Red Machine, the latter with Justin Vernon.",
+    "top_articles": [
+      "Stevie_Nicks.html",
+      "Aaron_Dessner.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_057",
+    "query": "Compare J. K. Rowling’s and Richard Powers’s undergraduate institutions, and identify the subject Powers switched from and the subject he switched to in his first semester.",
+    "ideal_answer": "Rowling earned her BA at the University of Exeter. Powers earned his BA at the University of Illinois at Urbana–Champaign, where he switched from physics to English literature during his first semester.",
+    "top_articles": [
+      "J._K._Rowling.html",
+      "Richard_Powers.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_058",
+    "query": "How did the events that put USS Maine and USS Mizpah underwater differ, and in what years did those events occur?",
+    "ideal_answer": "Maine sank after an explosion in Havana Harbor in 1898. Mizpah was deliberately scuttled off Florida in 1968 to create an artificial reef. Maine’s salvaged remains were later scuttled in the Strait of Florida in 1912.",
+    "top_articles": [
+      "USS_Maine_(1889).html",
+      "USS_Mizpah.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_059",
+    "query": "What kind of organization presents the AP NFL MVP award, where is it headquartered, and who votes for the award and at what point in the season?",
+    "ideal_answer": "The Associated Press is a not-for-profit news agency organized as a cooperative and headquartered in New York City. A panel of 50 sportswriters votes for its NFL MVP at the end of the regular season, before the playoffs.",
+    "top_articles": [
+      "Associated_Press.html",
+      "Associated_Press_NFL_Most_Valuable_Player_Award.html"
+    ],
+    "question_type": "multi_article"
+  },
+  {
+    "id": "wiki_060",
+    "query": "Classify the pineapple, canvasback, Mulona barnesi, and Mulona lapidaria by biological family, and identify which two belong to the same family.",
+    "ideal_answer": "The pineapple belongs to Bromeliaceae; the canvasback to Anatidae; and both Mulona barnesi and Mulona lapidaria to Erebidae. The two Mulona moths share the same family.",
+    "top_articles": [
+      "Pineapple.html",
+      "Canvasback.html",
+      "Mulona_barnesi.html",
+      "Mulona_lapidaria.html"
+    ],
+    "question_type": "multi_article"
+  }
+]

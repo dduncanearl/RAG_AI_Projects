@@ -1,0 +1,2165 @@
+{
+  "settings": {
+    "builder": "4.1.0-slim73-accuracy",
+    "model": "openai/gpt-5.4-mini",
+    "chunk_tokens": 5000,
+    "output_tokens": 4000,
+    "schema": "fd4a0438c8608a40c808e5a2201f8d5319828eec5bf386fa25efad0fabce6183",
+    "ontology": "9223fe5d5dbb8daa76c9852590c46f7ebbbc30280b687cca4bf359901453a99f"
+  },
+  "status": "failed",
+  "planned_batches": 69,
+  "completed_batches": 26,
+  "selected_files": [
+    "...Baby_One_More_Time_(song).html",
+    "1932_Summer_Olympics.html",
+    "1987_NBA_Finals.html",
+    "2007_NHL_entry_draft.html",
+    "2021_Atlanta_Braves_season.html",
+    "Ace_Ventura__Pet_Detective.html",
+    "Alfred_A._Knopf_Sr..html",
+    "Angus_L._Macdonald_Bridge.html",
+    "Aryna_Sabalenka.html",
+    "Bactrian_language.html",
+    "Beethoven_in_film.html",
+    "Birutė_Galdikas.html",
+    "Bridgerton.html",
+    "Cape_Sarichef_Light.html",
+    "Chicago_Spire.html",
+    "Clofazimine.html",
+    "Courteney_Cox.html",
+    "Darin_Erstad.html",
+    "Diana,_Princess_of_Wales.html",
+    "Dr._Quinn,_Medicine_Woman.html",
+    "Eggstock_(Uri_Alps).html",
+    "Estadio_José_Martín_Olaeta.html",
+    "Flin_Flon_Bombers.html",
+    "Friends_&_Relatives.html",
+    "Georgia_(U.S._state).html",
+    "Graham_High_School_(St._Paris,_Ohio).html",
+    "Gymnastics_at_the_1992_Summer_Olympics_–_Women_s_artistic_team_all-around.html",
+    "Harry_Shearer.html",
+    "Hoover_Dam.html",
+    "India.html",
+    "Jackie_Robinson.html",
+    "Jeff_Burroughs.html",
+    "Joe_Wright.html",
+    "Jovian_(emperor).html",
+    "Kevin_Costner.html",
+    "Landlocked_country.html",
+    "Lisa_Kudrow.html",
+    "List_of_Canadian_federal_general_elections.html",
+    "List_of_Tour_de_France_general_classification_winners.html",
+    "List_of_largest_extant_lizards.html",
+    "List_of_people_from_Provo,_Utah.html",
+    "Lou_Henry_Hoover.html",
+    "Manchester_United_F.C..html",
+    "Massachusetts.html",
+    "Miami_Book_Fair_International.html",
+    "Minute_Maid_Park.html",
+    "Mount_Rushmore.html",
+    "National_Football_League.html",
+    "Niels_Treschow.html",
+    "Oklahoma_City.html",
+    "Paramore.html",
+    "Philippines.html",
+    "Prague.html",
+    "Punxsutawney_Phil.html",
+    "Renče.html",
+    "Rodney_Gordon.html",
+    "Sam_Mendes.html",
+    "Selatan.html",
+    "Sirenia.html",
+    "Speedrunning.html",
+    "Stonewall_riots.html",
+    "Tati_Gabrielle.html",
+    "The_Color_of_Silence.html",
+    "The_Parent_Trap_(1961_film).html",
+    "Thirteen_Years__War_(1454–1466).html",
+    "Toronto.html",
+    "Uniformed_services_of_the_United_States.html",
+    "Vassar_College.html",
+    "West_Midlands_(county).html",
+    "William_VIII_of_Montpellier.html",
+    "WrestleMania_XII.html",
+    "Zooey_Deschanel.html",
+    "ŽAK_Subotica.html"
+  ],
+  "completed_articles": 26,
+  "skipped_articles": 4,
+  "accepted_fact_occurrences": 39,
+  "rejected_facts": 72,
+  "failed_batches": 0,
+  "empty_batches": 8,
+  "accepted_by_predicate": {
+    "HELD_AT": 4,
+    "CONTRIBUTED_TO": 6,
+    "RELEASE_DATE": 2,
+    "BORN_IN": 6,
+    "BIRTH_DATE": 6,
+    "LOCATED_IN": 11,
+    "PLAYED_FOR": 3,
+    "MEMBER_OF": 1
+  },
+  "issues": [
+    {
+      "stage": "fact",
+      "reason": "Fact does not directly involve the identified main subject.",
+      "record": {
+        "subject": "Nationwide Arena",
+        "predicate": "LOCATED_IN",
+        "target": "Columbus, Ohio",
+        "passage": 9,
+        "quote": "Location | Nationwide Arena Columbus, Ohio , U.S."
+      },
+      "document": "2007_NHL_entry_draft.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Statement fact:3: RELEASE_DATE subject local:f5ea4a7f704b9535971678aa8f8016805424c75813cd43fc467f18b63f55b312 has type Event; allowed ['CreativeWork'].",
+      "record": {
+        "subject": "2007 NHL entry draft",
+        "predicate": "RELEASE_DATE",
+        "value": "2007-06-22",
+        "datatype": "date",
+        "passage": 8,
+        "quote": "Date | June 22–23, 2007"
+      },
+      "document": "2007_NHL_entry_draft.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "2007 NHL entry draft",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Chicago Blackhawks",
+        "qualifiers": {
+          "role": "performer"
+        },
+        "passage": 12,
+        "quote": "First selection | Patrick Kane ( Chicago Blackhawks )"
+      },
+      "document": "2007_NHL_entry_draft.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Statement fact:3: BIRTH_DATE subject local:7be44a9842838922a4d4388c6798c07ae5fee8860ec1ede6420429caa653c8ed has type Event; allowed ['Person', 'Animal'].",
+      "record": {
+        "subject": "1932 Summer Olympics",
+        "predicate": "BIRTH_DATE",
+        "target": "1932-07-30",
+        "qualifiers": {},
+        "passage": 8,
+        "quote": "Games of the X Olympiad || Opening | July 30, 1932"
+      },
+      "document": "1932_Summer_Olympics.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Statement fact:4: RELEASE_DATE subject local:7be44a9842838922a4d4388c6798c07ae5fee8860ec1ede6420429caa653c8ed has type Event; allowed ['CreativeWork'].",
+      "record": {
+        "subject": "1932 Summer Olympics",
+        "predicate": "RELEASE_DATE",
+        "target": "1932-08-14",
+        "qualifiers": {},
+        "passage": 9,
+        "quote": "Games of the X Olympiad || Closing | August 14, 1932"
+      },
+      "document": "1932_Summer_Olympics.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "Charles Curtis",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "1932 Summer Olympics",
+        "qualifiers": {
+          "role": "performer"
+        },
+        "passage": 10,
+        "quote": "Games of the X Olympiad || Opened by | Vice President Charles Curtis [ 1 ]"
+      },
+      "document": "1932_Summer_Olympics.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for HELD_AT; automatic reversal disabled.",
+      "record": {
+        "subject": "1987 NBA Finals",
+        "predicate": "HELD_AT",
+        "target": "Boston Celtics",
+        "qualifiers": {
+          "scope": "actual"
+        },
+        "passage": 2,
+        "quote": "The 1987 NBA Finals was the championship series of the National Basketball Association 's (NBA) 1986–87 season , and the culmination of the season's playoffs ."
+      },
+      "document": "1987_NBA_Finals.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "Los Angeles Lakers",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "1987 NBA Finals",
+        "qualifiers": {
+          "role": "producer"
+        },
+        "passage": 5,
+        "quote": "1987 NBA Finals || Team Coach Wins Los Angeles Lakers Pat Riley 4 Boston Celtics K. C. Jones 2"
+      },
+      "document": "1987_NBA_Finals.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "Boston Celtics",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "1987 NBA Finals",
+        "qualifiers": {
+          "role": "producer"
+        },
+        "passage": 5,
+        "quote": "1987 NBA Finals || Team Coach Wins Los Angeles Lakers Pat Riley 4 Boston Celtics K. C. Jones 2"
+      },
+      "document": "1987_NBA_Finals.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "Pat Riley",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "1987 NBA Finals",
+        "qualifiers": {
+          "role": "director"
+        },
+        "passage": 5,
+        "quote": "1987 NBA Finals || Team Coach Wins Los Angeles Lakers Pat Riley 4 Boston Celtics K. C. Jones 2"
+      },
+      "document": "1987_NBA_Finals.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "K. C. Jones",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "1987 NBA Finals",
+        "qualifiers": {
+          "role": "director"
+        },
+        "passage": 5,
+        "quote": "1987 NBA Finals || Team Coach Wins Los Angeles Lakers Pat Riley 4 Boston Celtics K. C. Jones 2"
+      },
+      "document": "1987_NBA_Finals.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Unsupported qualifier: datatype",
+      "record": {
+        "subject": "1987 NBA Finals",
+        "predicate": "RELEASE_DATE",
+        "target": "1987-06-02",
+        "qualifiers": {
+          "datatype": "date"
+        },
+        "passage": 6,
+        "quote": "1987 NBA Finals || Dates | June 2–14"
+      },
+      "document": "1987_NBA_Finals.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "Magic Johnson",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "1987 NBA Finals",
+        "qualifiers": {
+          "role": "performer"
+        },
+        "passage": 7,
+        "quote": "1987 NBA Finals || MVP | Magic Johnson (Los Angeles Lakers)"
+      },
+      "document": "1987_NBA_Finals.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Membership must explicitly link this subject to this organization; attendance/employment is insufficient.",
+      "record": {
+        "subject": "Alfred A. Knopf Sr.",
+        "predicate": "MEMBER_OF",
+        "target": "Columbia University",
+        "passage": 13,
+        "quote": "Alfred attended Columbia University , [ 2 ] where he was a pre-law student and a member of the Peithologian Society (a debating and literary club) and the Boar's Head Society ."
+      },
+      "document": "Alfred_A._Knopf_Sr..html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "Alfred A. Knopf Sr.",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Alfred A. Knopf, Inc.",
+        "qualifiers": {
+          "role": "founder"
+        },
+        "passage": 16,
+        "quote": "Knopf, along with Blanche Knopf, founded the publishing house Alfred A. Knopf in 1915."
+      },
+      "document": "Alfred_A._Knopf_Sr..html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for LOCATED_IN; automatic reversal disabled.",
+      "record": {
+        "subject": "2021 Atlanta Braves season",
+        "predicate": "LOCATED_IN",
+        "target": "Atlanta",
+        "qualifiers": {
+          "role": "city"
+        },
+        "passage": 10,
+        "quote": "City | Atlanta"
+      },
+      "document": "2021_Atlanta_Braves_season.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for LOCATED_IN; automatic reversal disabled.",
+      "record": {
+        "subject": "2021 Atlanta Braves season",
+        "predicate": "LOCATED_IN",
+        "target": "Truist Park",
+        "qualifiers": {
+          "role": "ballpark"
+        },
+        "passage": 9,
+        "quote": "Ballpark | Truist Park"
+      },
+      "document": "2021_Atlanta_Braves_season.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for MEMBER_OF; automatic reversal disabled.",
+      "record": {
+        "subject": "2021 Atlanta Braves season",
+        "predicate": "MEMBER_OF",
+        "target": "National League",
+        "passage": 7,
+        "quote": "League | National League"
+      },
+      "document": "2021_Atlanta_Braves_season.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for MEMBER_OF; automatic reversal disabled.",
+      "record": {
+        "subject": "2021 Atlanta Braves season",
+        "predicate": "MEMBER_OF",
+        "target": "National League East",
+        "passage": 8,
+        "quote": "Division | East"
+      },
+      "document": "2021_Atlanta_Braves_season.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "2021 Atlanta Braves season",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "John Malone",
+        "qualifiers": {
+          "role": "producer"
+        },
+        "passage": 13,
+        "quote": "Owners | Liberty Media / John Malone"
+      },
+      "document": "2021_Atlanta_Braves_season.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "2021 Atlanta Braves season",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Alex Anthopoulos",
+        "qualifiers": {
+          "role": "producer"
+        },
+        "passage": 14,
+        "quote": "General manager | Alex Anthopoulos"
+      },
+      "document": "2021_Atlanta_Braves_season.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "2021 Atlanta Braves season",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Brian Snitker",
+        "qualifiers": {
+          "role": "director"
+        },
+        "passage": 15,
+        "quote": "Manager | Brian Snitker"
+      },
+      "document": "2021_Atlanta_Braves_season.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Evidence quote must exactly match the designated source passage.",
+      "record": {
+        "subject": "Britney Spears",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "...Baby One More Time",
+        "qualifiers": {
+          "role": "performer"
+        },
+        "passage": 8,
+        "quote": "\"...Baby One More Time\" is a song by American singer Britney Spears from her debut studio album of the same name (1999)."
+      },
+      "document": "...Baby_One_More_Time_(song).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Evidence quote must exactly match the designated source passage.",
+      "record": {
+        "subject": "Max Martin",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "...Baby One More Time",
+        "qualifiers": {
+          "role": "writer"
+        },
+        "passage": 8,
+        "quote": "It was written by Max Martin and produced by Martin and Rami Yacoub."
+      },
+      "document": "...Baby_One_More_Time_(song).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Evidence quote must exactly match the designated source passage.",
+      "record": {
+        "subject": "Max Martin",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "...Baby One More Time",
+        "qualifiers": {
+          "role": "producer"
+        },
+        "passage": 8,
+        "quote": "It was written by Max Martin and produced by Martin and Rami Yacoub."
+      },
+      "document": "...Baby_One_More_Time_(song).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Evidence quote must exactly match the designated source passage.",
+      "record": {
+        "subject": "Rami Yacoub",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "...Baby One More Time",
+        "qualifiers": {
+          "role": "producer"
+        },
+        "passage": 8,
+        "quote": "It was written by Max Martin and produced by Martin and Rami Yacoub."
+      },
+      "document": "...Baby_One_More_Time_(song).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Evidence quote must exactly match the designated source passage.",
+      "record": {
+        "subject": "Britney Spears",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "...Baby One More Time",
+        "qualifiers": {
+          "role": "performer"
+        },
+        "passage": 9,
+        "quote": "An accompanying music video, directed by Nigel Dick, features Spears as a high-school student who starts to sing and dance around the school, while watching her love interest from afar."
+      },
+      "document": "...Baby_One_More_Time_(song).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Evidence quote must exactly match the designated source passage.",
+      "record": {
+        "subject": "Nigel Dick",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "...Baby One More Time",
+        "qualifiers": {
+          "role": "director"
+        },
+        "passage": 9,
+        "quote": "An accompanying music video, directed by Nigel Dick, features Spears as a high-school student who starts to sing and dance around the school, while watching her love interest from afar."
+      },
+      "document": "...Baby_One_More_Time_(song).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Evidence quote must exactly match the designated source passage.",
+      "record": {
+        "subject": "...Baby One More Time",
+        "predicate": "BASED_ON",
+        "target": "...Baby One More Time (album)",
+        "qualifiers": {},
+        "passage": 8,
+        "quote": "\"...Baby One More Time\" is a song by American singer Britney Spears from her debut studio album of the same name (1999)."
+      },
+      "document": "...Baby_One_More_Time_(song).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Unsupported qualifier: value",
+      "record": {
+        "subject": "...Baby One More Time",
+        "predicate": "RELEASE_DATE",
+        "target": null,
+        "qualifiers": {
+          "value": "1998-09-29",
+          "datatype": "date"
+        },
+        "passage": 16,
+        "quote": "Released | September 29, 1998 ( 1998-09-29 )"
+      },
+      "document": "...Baby_One_More_Time_(song).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for LOCATED_IN; automatic reversal disabled.",
+      "record": {
+        "subject": "Bactrian language",
+        "predicate": "LOCATED_IN",
+        "target": "Bactria",
+        "qualifiers": {
+          "role": "native to"
+        },
+        "passage": 7,
+        "quote": "Native to | Bactria"
+      },
+      "document": "Bactrian_language.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for LOCATED_IN; automatic reversal disabled.",
+      "record": {
+        "subject": "Bactrian language",
+        "predicate": "LOCATED_IN",
+        "target": "Central Asia",
+        "qualifiers": {
+          "role": "region"
+        },
+        "passage": 8,
+        "quote": "Region | Central Asia"
+      },
+      "document": "Bactrian_language.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for MEMBER_OF; automatic reversal disabled.",
+      "record": {
+        "subject": "Bactrian language",
+        "predicate": "MEMBER_OF",
+        "target": "Kushan Empire",
+        "qualifiers": {
+          "role": "official language in"
+        },
+        "passage": 13,
+        "quote": "Official language in | Kushan Empire Hephthalite Empire"
+      },
+      "document": "Bactrian_language.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for MEMBER_OF; automatic reversal disabled.",
+      "record": {
+        "subject": "Bactrian language",
+        "predicate": "MEMBER_OF",
+        "target": "Hephthalite Empire",
+        "qualifiers": {
+          "role": "official language in"
+        },
+        "passage": 13,
+        "quote": "Official language in | Kushan Empire Hephthalite Empire"
+      },
+      "document": "Bactrian_language.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Location direction is not explicit in a supported sentence or row.",
+      "record": {
+        "subject": "Angus L. Macdonald Bridge",
+        "predicate": "LOCATED_IN",
+        "target": "Halifax Harbour",
+        "passage": 12,
+        "quote": "Crosses | Halifax Harbour"
+      },
+      "document": "Angus_L._Macdonald_Bridge.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "Angus L. Macdonald Bridge",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Philip Louis Pratley",
+        "qualifiers": {
+          "role": "director"
+        },
+        "passage": 5,
+        "quote": "The bridge was designed by Philip Louis Pratley , one of Canada's foremost long-span bridge designers who had also been responsible for the Lions Gate Bridge in Vancouver."
+      },
+      "document": "Angus_L._Macdonald_Bridge.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "Angus L. Macdonald Bridge",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Dominion Bridge Company Ltd",
+        "qualifiers": {
+          "role": "producer"
+        },
+        "passage": 5,
+        "quote": "The contractor was Dominion Bridge Company Ltd ."
+      },
+      "document": "Angus_L._Macdonald_Bridge.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Location direction is not explicit in a supported sentence or row.",
+      "record": {
+        "subject": "Angus L. Macdonald Bridge",
+        "predicate": "LOCATED_IN",
+        "target": "Halifax Regional Municipality",
+        "passage": 4,
+        "quote": "The bridge is one of two suspension bridges linking the Halifax Peninsula to Dartmouth in the Halifax Regional Municipality ."
+      },
+      "document": "Angus_L._Macdonald_Bridge.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Evidence does not name the non-main endpoint explicitly.",
+      "record": {
+        "subject": "Angus L. Macdonald Bridge",
+        "predicate": "LOCATED_IN",
+        "target": "Halifax Regional Municipality",
+        "passage": 16,
+        "quote": "Maintained by | Halifax-Dartmouth Bridge Commission"
+      },
+      "document": "Angus_L._Macdonald_Bridge.html"
+    },
+    {
+      "stage": "entity",
+      "reason": "Conflicting entities share one name; references quarantined.",
+      "record": {
+        "name": "Bridgerton",
+        "type": "CreativeWork",
+        "subtype": "novel series",
+        "url": "https://en.wikipedia.org/wiki/Bridgerton_(novel_series)"
+      },
+      "document": "Bridgerton.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Unknown or ambiguous target entity.",
+      "record": {
+        "subject": "Chris Van Dusen",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Bridgerton",
+        "qualifiers": {
+          "role": "writer"
+        },
+        "passage": 13,
+        "quote": "Bridgerton | Bridgerton || Created by | Chris Van Dusen"
+      },
+      "document": "Bridgerton.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Unknown or ambiguous subject entity.",
+      "record": {
+        "subject": "Bridgerton",
+        "predicate": "BASED_ON",
+        "target": "Bridgerton",
+        "passage": 14,
+        "quote": "Bridgerton | Bridgerton || Based on | Bridgerton by Julia Quinn"
+      },
+      "document": "Bridgerton.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Unknown or ambiguous target entity.",
+      "record": {
+        "subject": "Julia Quinn",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Bridgerton",
+        "qualifiers": {
+          "role": "writer"
+        },
+        "passage": 14,
+        "quote": "Bridgerton | Bridgerton || Based on | Bridgerton by Julia Quinn"
+      },
+      "document": "Bridgerton.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for LOCATED_IN; automatic reversal disabled.",
+      "record": {
+        "subject": "Clofazimine",
+        "predicate": "LOCATED_IN",
+        "target": "Trinity College, Dublin",
+        "qualifiers": {
+          "role": "discovered_at"
+        },
+        "passage": 5,
+        "quote": "Clofazimine was discovered in the 1950s at Trinity College, Dublin"
+      },
+      "document": "Clofazimine.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Evidence quote must exactly match the designated source passage.",
+      "record": {
+        "subject": "Clofazimine",
+        "predicate": "MEMBER_OF",
+        "target": "World Health Organization's List of Essential Medicines",
+        "passage": 5,
+        "quote": "It is on the World Health Organization's List of Essential Medicines."
+      },
+      "document": "Clofazimine.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid passage number.",
+      "record": {
+        "subject": "Chicago Spire",
+        "predicate": "LOCATED_IN",
+        "target": "Chicago",
+        "qualifiers": {
+          "quote": "Location | Lake Shore Drive Chicago , Illinois , United States",
+          "passage": 9
+        }
+      },
+      "document": "Chicago_Spire.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid passage number.",
+      "record": {
+        "subject": "Chicago",
+        "predicate": "LOCATED_IN",
+        "target": "Illinois",
+        "qualifiers": {
+          "quote": "Location | Lake Shore Drive Chicago , Illinois , United States",
+          "passage": 9
+        }
+      },
+      "document": "Chicago_Spire.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid passage number.",
+      "record": {
+        "subject": "Chicago Spire",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Santiago Calatrava",
+        "qualifiers": {
+          "role": "director",
+          "quote": "The building was designed and spearheaded by Spanish architect-engineer Santiago Calatrava and Chicago developer Christopher T. Carley of the Fordham Company .",
+          "passage": 2
+        }
+      },
+      "document": "Chicago_Spire.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid passage number.",
+      "record": {
+        "subject": "Chicago Spire",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Perkins and Will",
+        "qualifiers": {
+          "role": "writer",
+          "quote": "Architects | Santiago Calatrava Perkins and Will",
+          "passage": 21
+        }
+      },
+      "document": "Chicago_Spire.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid passage number.",
+      "record": {
+        "subject": "Chicago Spire",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Shelbourne Development Group",
+        "qualifiers": {
+          "role": "producer",
+          "quote": "Developer | Shelbourne Development Group",
+          "passage": 22
+        }
+      },
+      "document": "Chicago_Spire.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid passage number.",
+      "record": {
+        "subject": "Chicago Spire",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Thornton Tomasetti",
+        "qualifiers": {
+          "role": "producer",
+          "quote": "Structural engineer | Thornton Tomasetti",
+          "passage": 23
+        }
+      },
+      "document": "Chicago_Spire.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid passage number.",
+      "record": {
+        "subject": "Chicago Spire",
+        "predicate": "RELEASE_DATE",
+        "target": "2007-06-25",
+        "qualifiers": {
+          "datatype": "date",
+          "quote": "Construction started | June 25, 2007",
+          "passage": 11
+        }
+      },
+      "document": "Chicago_Spire.html"
+    },
+    {
+      "stage": "entity_url",
+      "reason": "Unsupported URL removed; entity kept provisional.",
+      "record": {
+        "name": "Paris",
+        "type": "Place",
+        "url": "https://en.wikipedia.org/wiki/Paris"
+      },
+      "document": "Diana,_Princess_of_Wales.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for CONTRIBUTED_TO; automatic reversal disabled.",
+      "record": {
+        "subject": "Diana, Princess of Wales",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Charles III",
+        "qualifiers": {
+          "role": "actor"
+        },
+        "passage": 11,
+        "quote": "She was the first wife of Charles III (then Prince of Wales ) and mother of Princes William and Harry ."
+      },
+      "document": "Diana,_Princess_of_Wales.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Membership must explicitly link this subject to this organization; attendance/employment is insufficient.",
+      "record": {
+        "subject": "Courteney Cox",
+        "predicate": "MEMBER_OF",
+        "target": "Coquette Productions",
+        "passage": 14,
+        "quote": "Courteney Cox | Courteney Cox || Organization | Coquette Productions"
+      },
+      "document": "Courteney_Cox.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Unknown or ambiguous target entity.",
+      "record": {
+        "subject": "Courteney Cox",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "TalhotBlond",
+        "passage": 7,
+        "quote": "She has directed the television drama film TalhotBlond (2012), the black comedy drama film Just Before I Go (2014), and executive produced the game show Celebrity Name Game (2014–2017).",
+        "qualifiers": {
+          "role": "director"
+        }
+      },
+      "document": "Courteney_Cox.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Quote does not explicitly support the contribution role.",
+      "record": {
+        "subject": "Beth Sullivan",
+        "predicate": "CONTRIBUTED_TO",
+        "target": "Dr. Quinn, Medicine Woman",
+        "qualifiers": {
+          "role": "writer"
+        },
+        "passage": 8,
+        "quote": "Created by | Beth Sullivan"
+      },
+      "document": "Dr._Quinn,_Medicine_Woman.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for LOCATED_IN; automatic reversal disabled.",
+      "record": {
+        "subject": "Dr. Quinn, Medicine Woman",
+        "predicate": "LOCATED_IN",
+        "target": "CBS",
+        "qualifiers": {
+          "polarity": "positive"
+        },
+        "passage": 19,
+        "quote": "Network | CBS"
+      },
+      "document": "Dr._Quinn,_Medicine_Woman.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Location direction is not explicit in a supported sentence or row.",
+      "record": {
+        "subject": "Eggstock (Uri Alps)",
+        "predicate": "LOCATED_IN",
+        "target": "Uri Alps",
+        "passage": 16,
+        "quote": "Parent range | Uri Alps"
+      },
+      "document": "Eggstock_(Uri_Alps).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Fact does not directly involve the identified main subject.",
+      "record": {
+        "subject": "Rosario",
+        "predicate": "LOCATED_IN",
+        "target": "Santa Fe Province",
+        "passage": 2,
+        "quote": "Estadio José Martín Olaeta is a football stadium located in the city of Rosario of Santa Fe Province , Argentina ."
+      },
+      "document": "Estadio_José_Martín_Olaeta.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Fact does not directly involve the identified main subject.",
+      "record": {
+        "subject": "Santa Fe Province",
+        "predicate": "LOCATED_IN",
+        "target": "Argentina",
+        "passage": 2,
+        "quote": "Estadio José Martín Olaeta is a football stadium located in the city of Rosario of Santa Fe Province , Argentina ."
+      },
+      "document": "Estadio_José_Martín_Olaeta.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Evidence quote must exactly match the designated source passage.",
+      "record": {
+        "subject": "Estadio José Martín Olaeta",
+        "predicate": "MEMBER_OF",
+        "target": "C.A. Argentino",
+        "passage": 17,
+        "quote": "Tenants | Argentino (1944–present) | Argentino (1944–present)"
+      },
+      "document": "Estadio_José_Martín_Olaeta.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Membership must explicitly link this subject to this organization; attendance/employment is insufficient.",
+      "record": {
+        "subject": "Flin Flon Bombers",
+        "predicate": "MEMBER_OF",
+        "target": "Saskatchewan Junior Hockey League",
+        "passage": 2,
+        "quote": "The Bombers are members of the Saskatchewan Junior Hockey League (SJHL)"
+      },
+      "document": "Flin_Flon_Bombers.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for HELD_AT; automatic reversal disabled.",
+      "record": {
+        "subject": "Flin Flon Bombers",
+        "predicate": "HELD_AT",
+        "target": "Whitney Forum",
+        "passage": 2,
+        "quote": "they play home games at the Whitney Forum"
+      },
+      "document": "Flin_Flon_Bombers.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Statement fact:4: BIRTH_DATE subject local:5d80c8fd9ecab8645d76482eb1fe4bae7c7060d816b5d6e73859c485f6bb3e71 has type Organization; allowed ['Person', 'Animal'].",
+      "record": {
+        "subject": "Flin Flon Bombers",
+        "predicate": "BIRTH_DATE",
+        "value": "1927",
+        "datatype": "date",
+        "passage": 8,
+        "quote": "Founded | 1927"
+      },
+      "document": "Flin_Flon_Bombers.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "'explicit' is not one of ['exact', 'approximate', 'before', 'after', 'range', 'unknown']",
+      "record": {
+        "subject": "Georgia (U.S. state)",
+        "predicate": "LOCATED_IN",
+        "target": "United States",
+        "qualifiers": {
+          "certainty": "explicit"
+        },
+        "passage": 19,
+        "quote": "Country | United States"
+      },
+      "document": "Georgia_(U.S._state).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "'explicit' is not one of ['exact', 'approximate', 'before', 'after', 'range', 'unknown']",
+      "record": {
+        "subject": "Atlanta",
+        "predicate": "LOCATED_IN",
+        "target": "Georgia (U.S. state)",
+        "qualifiers": {
+          "certainty": "explicit"
+        },
+        "passage": 8,
+        "quote": "Atlanta , a global city , is both the state's capital and its largest city."
+      },
+      "document": "Georgia_(U.S._state).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Invalid endpoint types/direction for BASED_ON; automatic reversal disabled.",
+      "record": {
+        "subject": "Georgia (U.S. state)",
+        "predicate": "BASED_ON",
+        "target": "Province of Georgia",
+        "qualifiers": {
+          "certainty": "explicit"
+        },
+        "passage": 20,
+        "quote": "Before statehood | Province of Georgia"
+      },
+      "document": "Georgia_(U.S._state).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "'explicit' is not one of ['exact', 'approximate', 'before', 'after', 'range', 'unknown']",
+      "record": {
+        "subject": "Georgia (U.S. state)",
+        "predicate": "RELEASE_DATE",
+        "target": "1788-01-02",
+        "qualifiers": {
+          "certainty": "explicit"
+        },
+        "passage": 21,
+        "quote": "Admitted to the Union | January 2, 1788 ; 238 years ago ( 1788-01-02 ) (4th)"
+      },
+      "document": "Georgia_(U.S._state).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Unsupported qualifier: datatype",
+      "record": {
+        "subject": "Gymnastics at the 1992 Summer Olympics – Women's artistic team all-around",
+        "predicate": "RELEASE_DATE",
+        "target": "1992-07-28",
+        "passage": 6,
+        "quote": "Date | 28 July 1992",
+        "qualifiers": {
+          "datatype": "date"
+        }
+      },
+      "document": "Gymnastics_at_the_1992_Summer_Olympics_–_Women_s_artistic_team_all-around.html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Location direction is not explicit in a supported sentence or row.",
+      "record": {
+        "subject": "Graham High School (St. Paris, Ohio)",
+        "predicate": "LOCATED_IN",
+        "target": "St. Paris, Ohio",
+        "passage": 6,
+        "quote": "7800 West State Route 36 St. Paris , Ohio 43072 United States"
+      },
+      "document": "Graham_High_School_(St._Paris,_Ohio).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Membership must explicitly link this subject to this organization; attendance/employment is insufficient.",
+      "record": {
+        "subject": "Graham High School (St. Paris, Ohio)",
+        "predicate": "MEMBER_OF",
+        "target": "Graham Local School District",
+        "passage": 11,
+        "quote": "School district | Graham Local School District"
+      },
+      "document": "Graham_High_School_(St._Paris,_Ohio).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Location direction is not explicit in a supported sentence or row.",
+      "record": {
+        "subject": "Graham High School (St. Paris, Ohio)",
+        "predicate": "LOCATED_IN",
+        "target": "Ohio",
+        "passage": 6,
+        "quote": "7800 West State Route 36 St. Paris , Ohio 43072 United States"
+      },
+      "document": "Graham_High_School_(St._Paris,_Ohio).html"
+    },
+    {
+      "stage": "fact",
+      "reason": "Membership must explicitly link this subject to this organization; attendance/employment is insufficient.",
+      "record": {
+        "subject": "Graham High School (St. Paris, Ohio)",
+        "predicate": "MEMBER_OF",
+        "target": "Central Buckeye Conference",
+        "passage": 25,
+        "quote": "Graham is a member of Central Buckeye Conference (CBC)."
+      },
+      "document": "Graham_High_School_(St._Paris,_Ohio).html"
+    }
+  ],
+  "repairs": [
+    {
+      "fact": 3,
+      "action": "normalized ISO date fields",
+      "predicate": "BIRTH_DATE",
+      "document": "1932_Summer_Olympics.html"
+    },
+    {
+      "fact": 4,
+      "action": "normalized ISO date fields",
+      "predicate": "RELEASE_DATE",
+      "document": "1932_Summer_Olympics.html"
+    },
+    {
+      "fact": 6,
+      "action": "normalized ISO date fields",
+      "predicate": "RELEASE_DATE",
+      "document": "1987_NBA_Finals.html"
+    },
+    {
+      "fact": 2,
+      "action": "normalized ISO date fields",
+      "predicate": "BIRTH_DATE",
+      "document": "Darin_Erstad.html"
+    },
+    {
+      "fact": 2,
+      "action": "normalized ISO date fields",
+      "predicate": "BIRTH_DATE",
+      "document": "Diana,_Princess_of_Wales.html"
+    },
+    {
+      "fact": 2,
+      "action": "normalized ISO date fields",
+      "predicate": "BIRTH_DATE",
+      "document": "Courteney_Cox.html"
+    },
+    {
+      "fact": 4,
+      "action": "normalized ISO date fields",
+      "predicate": "RELEASE_DATE",
+      "document": "Georgia_(U.S._state).html"
+    },
+    {
+      "fact": 2,
+      "action": "normalized ISO date fields",
+      "predicate": "RELEASE_DATE",
+      "document": "Gymnastics_at_the_1992_Summer_Olympics_–_Women_s_artistic_team_all-around.html"
+    }
+  ],
+  "articles": [
+    {
+      "filename": "...Baby_One_More_Time_(song).html",
+      "selection": {
+        "pruned_noncareer_tables": 6,
+        "original_units_after_pruning": 388,
+        "selected_units": 35,
+        "omitted_units": 353,
+        "selected_tokens": 4190,
+        "omitted_passages_after_batch_cap": 13,
+        "submitted_passages": 22
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 0
+    },
+    {
+      "filename": "1932_Summer_Olympics.html",
+      "selection": {
+        "pruned_noncareer_tables": 5,
+        "original_units_after_pruning": 156,
+        "selected_units": 42,
+        "omitted_units": 114,
+        "selected_tokens": 4199,
+        "omitted_passages_after_batch_cap": 16,
+        "submitted_passages": 26
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 2
+    },
+    {
+      "filename": "1987_NBA_Finals.html",
+      "selection": {
+        "pruned_noncareer_tables": 45,
+        "original_units_after_pruning": 90,
+        "selected_units": 30,
+        "omitted_units": 60,
+        "selected_tokens": 4190,
+        "omitted_passages_after_batch_cap": 11,
+        "submitted_passages": 19
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 0
+    },
+    {
+      "filename": "2007_NHL_entry_draft.html",
+      "selection": {
+        "pruned_noncareer_tables": 13,
+        "original_units_after_pruning": 94,
+        "selected_units": 34,
+        "omitted_units": 60,
+        "selected_tokens": 2202,
+        "omitted_passages_after_batch_cap": 6,
+        "submitted_passages": 28
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 1
+    },
+    {
+      "filename": "2021_Atlanta_Braves_season.html",
+      "selection": {
+        "pruned_noncareer_tables": 11,
+        "original_units_after_pruning": 62,
+        "selected_units": 44,
+        "omitted_units": 18,
+        "selected_tokens": 3434,
+        "omitted_passages_after_batch_cap": 21,
+        "submitted_passages": 23
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 0
+    },
+    {
+      "filename": "Ace_Ventura__Pet_Detective.html",
+      "selection": {
+        "pruned_noncareer_tables": 2,
+        "original_units_after_pruning": 134,
+        "selected_units": 41,
+        "omitted_units": 93,
+        "selected_tokens": 4190,
+        "omitted_passages_after_batch_cap": 15,
+        "submitted_passages": 26
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 5
+    },
+    {
+      "filename": "Alfred_A._Knopf_Sr..html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 64,
+        "selected_units": 22,
+        "omitted_units": 42,
+        "selected_tokens": 4140,
+        "omitted_passages_after_batch_cap": 6,
+        "submitted_passages": 16
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 2
+    },
+    {
+      "filename": "Angus_L._Macdonald_Bridge.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 76,
+        "selected_units": 48,
+        "omitted_units": 28,
+        "selected_tokens": 4148,
+        "omitted_passages_after_batch_cap": 23,
+        "submitted_passages": 25
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 2
+    },
+    {
+      "filename": "Aryna_Sabalenka.html",
+      "selection": {
+        "pruned_noncareer_tables": 7,
+        "original_units_after_pruning": 677,
+        "selected_units": 45,
+        "omitted_units": 632,
+        "selected_tokens": 4178,
+        "omitted_passages_after_batch_cap": 22,
+        "submitted_passages": 23
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 2
+    },
+    {
+      "filename": "Bactrian_language.html",
+      "selection": {
+        "pruned_noncareer_tables": 3,
+        "original_units_after_pruning": 177,
+        "selected_units": 44,
+        "omitted_units": 133,
+        "selected_tokens": 4200,
+        "omitted_passages_after_batch_cap": 21,
+        "submitted_passages": 23
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 0
+    },
+    {
+      "filename": "Beethoven_in_film.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 27,
+        "selected_units": 20,
+        "omitted_units": 7,
+        "selected_tokens": 3140,
+        "omitted_passages_after_batch_cap": 1,
+        "submitted_passages": 19
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Birutė_Galdikas.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 113,
+        "selected_units": 31,
+        "omitted_units": 82,
+        "selected_tokens": 4190,
+        "omitted_passages_after_batch_cap": 10,
+        "submitted_passages": 21
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 2
+    },
+    {
+      "filename": "Bridgerton.html",
+      "selection": {
+        "pruned_noncareer_tables": 7,
+        "original_units_after_pruning": 581,
+        "selected_units": 36,
+        "omitted_units": 545,
+        "selected_tokens": 4184,
+        "omitted_passages_after_batch_cap": 21,
+        "submitted_passages": 15
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 0
+    },
+    {
+      "filename": "Cape_Sarichef_Light.html",
+      "selection": {
+        "pruned_noncareer_tables": 1,
+        "original_units_after_pruning": 49,
+        "selected_units": 30,
+        "omitted_units": 19,
+        "selected_tokens": 2313,
+        "omitted_passages_after_batch_cap": 3,
+        "submitted_passages": 27
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 3
+    },
+    {
+      "filename": "Chicago_Spire.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 187,
+        "selected_units": 46,
+        "omitted_units": 141,
+        "selected_tokens": 4191,
+        "omitted_passages_after_batch_cap": 20,
+        "submitted_passages": 26
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 0
+    },
+    {
+      "filename": "Clofazimine.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 88,
+        "selected_units": 41,
+        "omitted_units": 47,
+        "selected_tokens": 4186,
+        "omitted_passages_after_batch_cap": 17,
+        "submitted_passages": 24
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 0
+    },
+    {
+      "filename": "Courteney_Cox.html",
+      "selection": {
+        "pruned_noncareer_tables": 3,
+        "original_units_after_pruning": 243,
+        "selected_units": 53,
+        "omitted_units": 190,
+        "selected_tokens": 4180,
+        "omitted_passages_after_batch_cap": 28,
+        "submitted_passages": 25
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 2
+    },
+    {
+      "filename": "Darin_Erstad.html",
+      "selection": {
+        "pruned_noncareer_tables": 2,
+        "original_units_after_pruning": 102,
+        "selected_units": 46,
+        "omitted_units": 56,
+        "selected_tokens": 4199,
+        "omitted_passages_after_batch_cap": 24,
+        "submitted_passages": 22
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 5
+    },
+    {
+      "filename": "Diana,_Princess_of_Wales.html",
+      "selection": {
+        "pruned_noncareer_tables": 2,
+        "original_units_after_pruning": 767,
+        "selected_units": 42,
+        "omitted_units": 725,
+        "selected_tokens": 4192,
+        "omitted_passages_after_batch_cap": 18,
+        "submitted_passages": 24
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 3
+    },
+    {
+      "filename": "Dr._Quinn,_Medicine_Woman.html",
+      "selection": {
+        "pruned_noncareer_tables": 6,
+        "original_units_after_pruning": 220,
+        "selected_units": 43,
+        "omitted_units": 177,
+        "selected_tokens": 4192,
+        "omitted_passages_after_batch_cap": 22,
+        "submitted_passages": 21
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 2
+    },
+    {
+      "filename": "Eggstock_(Uri_Alps).html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 21,
+        "selected_units": 17,
+        "omitted_units": 4,
+        "selected_tokens": 1182,
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 17
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 3
+    },
+    {
+      "filename": "Estadio_José_Martín_Olaeta.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 33,
+        "selected_units": 21,
+        "omitted_units": 12,
+        "selected_tokens": 1617,
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 21
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 1
+    },
+    {
+      "filename": "Flin_Flon_Bombers.html",
+      "selection": {
+        "pruned_noncareer_tables": 8,
+        "original_units_after_pruning": 375,
+        "selected_units": 39,
+        "omitted_units": 336,
+        "selected_tokens": 4199,
+        "omitted_passages_after_batch_cap": 13,
+        "submitted_passages": 26
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 1
+    },
+    {
+      "filename": "Friends_&_Relatives.html",
+      "selection": {
+        "pruned_noncareer_tables": 3,
+        "original_units_after_pruning": 22,
+        "selected_units": 18,
+        "omitted_units": 4,
+        "selected_tokens": 1365,
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 18
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 1
+    },
+    {
+      "filename": "Georgia_(U.S._state).html",
+      "selection": {
+        "pruned_noncareer_tables": 8,
+        "original_units_after_pruning": 685,
+        "selected_units": 40,
+        "omitted_units": 645,
+        "selected_tokens": 4198,
+        "omitted_passages_after_batch_cap": 19,
+        "submitted_passages": 21
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 0
+    },
+    {
+      "filename": "Graham_High_School_(St._Paris,_Ohio).html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 42,
+        "selected_units": 29,
+        "omitted_units": 13,
+        "selected_tokens": 2080,
+        "omitted_passages_after_batch_cap": 2,
+        "submitted_passages": 27
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 1
+    },
+    {
+      "filename": "Gymnastics_at_the_1992_Summer_Olympics_–_Women_s_artistic_team_all-around.html",
+      "selection": {
+        "pruned_noncareer_tables": 2,
+        "original_units_after_pruning": 17,
+        "selected_units": 13,
+        "omitted_units": 4,
+        "selected_tokens": 1823,
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 13
+      },
+      "status": "processed",
+      "accepted_fact_occurrences": 1
+    },
+    {
+      "filename": "Harry_Shearer.html",
+      "selection": {
+        "pruned_noncareer_tables": 6,
+        "original_units_after_pruning": 288,
+        "selected_units": 25,
+        "omitted_units": 263,
+        "selected_tokens": 4200,
+        "omitted_passages_after_batch_cap": 10,
+        "submitted_passages": 15
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Hoover_Dam.html",
+      "selection": {
+        "pruned_noncareer_tables": 1,
+        "original_units_after_pruning": 427,
+        "selected_units": 58,
+        "omitted_units": 369,
+        "selected_tokens": 4198,
+        "omitted_passages_after_batch_cap": 31,
+        "submitted_passages": 27
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "India.html",
+      "selection": {
+        "pruned_noncareer_tables": 2,
+        "original_units_after_pruning": 942,
+        "selected_units": 14,
+        "omitted_units": 928,
+        "selected_tokens": 4195,
+        "omitted_passages_after_batch_cap": 3,
+        "submitted_passages": 11
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Jackie_Robinson.html",
+      "selection": {
+        "pruned_noncareer_tables": 1,
+        "original_units_after_pruning": 593,
+        "selected_units": 34,
+        "omitted_units": 559,
+        "selected_tokens": 4199,
+        "omitted_passages_after_batch_cap": 12,
+        "submitted_passages": 22
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Jeff_Burroughs.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 57,
+        "selected_units": 32,
+        "omitted_units": 25,
+        "selected_tokens": 4195,
+        "omitted_passages_after_batch_cap": 10,
+        "submitted_passages": 22
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Joe_Wright.html",
+      "selection": {
+        "pruned_noncareer_tables": 4,
+        "original_units_after_pruning": 120,
+        "selected_units": 41,
+        "omitted_units": 79,
+        "selected_tokens": 4185,
+        "omitted_passages_after_batch_cap": 19,
+        "submitted_passages": 22
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Jovian_(emperor).html",
+      "selection": {
+        "pruned_noncareer_tables": 1,
+        "original_units_after_pruning": 97,
+        "selected_units": 28,
+        "omitted_units": 69,
+        "selected_tokens": 4200,
+        "omitted_passages_after_batch_cap": 6,
+        "submitted_passages": 22
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Kevin_Costner.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 208,
+        "selected_units": 31,
+        "omitted_units": 177,
+        "selected_tokens": 4197,
+        "omitted_passages_after_batch_cap": 10,
+        "submitted_passages": 21
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Landlocked_country.html",
+      "selection": {
+        "pruned_noncareer_tables": 1,
+        "original_units_after_pruning": 164,
+        "selected_units": 36,
+        "omitted_units": 128,
+        "selected_tokens": 4186,
+        "omitted_passages_after_batch_cap": 14,
+        "submitted_passages": 22
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Lisa_Kudrow.html",
+      "selection": {
+        "pruned_noncareer_tables": 2,
+        "original_units_after_pruning": 146,
+        "selected_units": 43,
+        "omitted_units": 103,
+        "selected_tokens": 4180,
+        "omitted_passages_after_batch_cap": 22,
+        "submitted_passages": 21
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "List_of_Canadian_federal_general_elections.html",
+      "selection": {
+        "skip_reason": "list/year overview; retained for ordinary retrieval",
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 0
+      },
+      "status": "skipped"
+    },
+    {
+      "filename": "List_of_Tour_de_France_general_classification_winners.html",
+      "selection": {
+        "skip_reason": "list/year overview; retained for ordinary retrieval",
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 0
+      },
+      "status": "skipped"
+    },
+    {
+      "filename": "List_of_largest_extant_lizards.html",
+      "selection": {
+        "skip_reason": "list/year overview; retained for ordinary retrieval",
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 0
+      },
+      "status": "skipped"
+    },
+    {
+      "filename": "List_of_people_from_Provo,_Utah.html",
+      "selection": {
+        "skip_reason": "list/year overview; retained for ordinary retrieval",
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 0
+      },
+      "status": "skipped"
+    },
+    {
+      "filename": "Lou_Henry_Hoover.html",
+      "selection": {
+        "pruned_noncareer_tables": 1,
+        "original_units_after_pruning": 262,
+        "selected_units": 42,
+        "omitted_units": 220,
+        "selected_tokens": 4188,
+        "omitted_passages_after_batch_cap": 21,
+        "submitted_passages": 21
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Manchester_United_F.C..html",
+      "selection": {
+        "pruned_noncareer_tables": 8,
+        "original_units_after_pruning": 596,
+        "selected_units": 55,
+        "omitted_units": 541,
+        "selected_tokens": 4180,
+        "omitted_passages_after_batch_cap": 33,
+        "submitted_passages": 22
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Massachusetts.html",
+      "selection": {
+        "pruned_noncareer_tables": 10,
+        "original_units_after_pruning": 1096,
+        "selected_units": 29,
+        "omitted_units": 1067,
+        "selected_tokens": 4187,
+        "omitted_passages_after_batch_cap": 12,
+        "submitted_passages": 17
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Miami_Book_Fair_International.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 261,
+        "selected_units": 51,
+        "omitted_units": 210,
+        "selected_tokens": 4196,
+        "omitted_passages_after_batch_cap": 28,
+        "submitted_passages": 23
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Minute_Maid_Park.html",
+      "selection": {
+        "pruned_noncareer_tables": 3,
+        "original_units_after_pruning": 244,
+        "selected_units": 50,
+        "omitted_units": 194,
+        "selected_tokens": 4192,
+        "omitted_passages_after_batch_cap": 22,
+        "submitted_passages": 28
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Mount_Rushmore.html",
+      "selection": {
+        "pruned_noncareer_tables": 2,
+        "original_units_after_pruning": 330,
+        "selected_units": 37,
+        "omitted_units": 293,
+        "selected_tokens": 4194,
+        "omitted_passages_after_batch_cap": 16,
+        "submitted_passages": 21
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "National_Football_League.html",
+      "selection": {
+        "pruned_noncareer_tables": 2,
+        "original_units_after_pruning": 477,
+        "selected_units": 77,
+        "omitted_units": 400,
+        "selected_tokens": 4197,
+        "omitted_passages_after_batch_cap": 55,
+        "submitted_passages": 22
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Niels_Treschow.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 27,
+        "selected_units": 12,
+        "omitted_units": 15,
+        "selected_tokens": 1113,
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 12
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Oklahoma_City.html",
+      "selection": {
+        "pruned_noncareer_tables": 8,
+        "original_units_after_pruning": 509,
+        "selected_units": 38,
+        "omitted_units": 471,
+        "selected_tokens": 4183,
+        "omitted_passages_after_batch_cap": 18,
+        "submitted_passages": 20
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Paramore.html",
+      "selection": {
+        "pruned_noncareer_tables": 1,
+        "original_units_after_pruning": 490,
+        "selected_units": 36,
+        "omitted_units": 454,
+        "selected_tokens": 4196,
+        "omitted_passages_after_batch_cap": 16,
+        "submitted_passages": 20
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Philippines.html",
+      "selection": {
+        "pruned_noncareer_tables": 1,
+        "original_units_after_pruning": 1240,
+        "selected_units": 23,
+        "omitted_units": 1217,
+        "selected_tokens": 4188,
+        "omitted_passages_after_batch_cap": 9,
+        "submitted_passages": 14
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Prague.html",
+      "selection": {
+        "pruned_noncareer_tables": 8,
+        "original_units_after_pruning": 685,
+        "selected_units": 37,
+        "omitted_units": 648,
+        "selected_tokens": 4195,
+        "omitted_passages_after_batch_cap": 18,
+        "submitted_passages": 19
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Punxsutawney_Phil.html",
+      "selection": {
+        "pruned_noncareer_tables": 2,
+        "original_units_after_pruning": 90,
+        "selected_units": 33,
+        "omitted_units": 57,
+        "selected_tokens": 3074,
+        "omitted_passages_after_batch_cap": 11,
+        "submitted_passages": 22
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Renče.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 29,
+        "selected_units": 21,
+        "omitted_units": 8,
+        "selected_tokens": 1458,
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 21
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Rodney_Gordon.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 32,
+        "selected_units": 23,
+        "omitted_units": 9,
+        "selected_tokens": 1867,
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 23
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Sam_Mendes.html",
+      "selection": {
+        "pruned_noncareer_tables": 3,
+        "original_units_after_pruning": 235,
+        "selected_units": 44,
+        "omitted_units": 191,
+        "selected_tokens": 4193,
+        "omitted_passages_after_batch_cap": 24,
+        "submitted_passages": 20
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Selatan.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 9,
+        "selected_units": 5,
+        "omitted_units": 4,
+        "selected_tokens": 189,
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 5
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Sirenia.html",
+      "selection": {
+        "pruned_noncareer_tables": 2,
+        "original_units_after_pruning": 284,
+        "selected_units": 35,
+        "omitted_units": 249,
+        "selected_tokens": 4183,
+        "omitted_passages_after_batch_cap": 12,
+        "submitted_passages": 23
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Speedrunning.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 159,
+        "selected_units": 44,
+        "omitted_units": 115,
+        "selected_tokens": 4187,
+        "omitted_passages_after_batch_cap": 23,
+        "submitted_passages": 21
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Stonewall_riots.html",
+      "selection": {
+        "pruned_noncareer_tables": 1,
+        "original_units_after_pruning": 525,
+        "selected_units": 37,
+        "omitted_units": 488,
+        "selected_tokens": 4200,
+        "omitted_passages_after_batch_cap": 17,
+        "submitted_passages": 20
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Tati_Gabrielle.html",
+      "selection": {
+        "pruned_noncareer_tables": 3,
+        "original_units_after_pruning": 58,
+        "selected_units": 37,
+        "omitted_units": 21,
+        "selected_tokens": 4102,
+        "omitted_passages_after_batch_cap": 17,
+        "submitted_passages": 20
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "The_Color_of_Silence.html",
+      "selection": {
+        "pruned_noncareer_tables": 4,
+        "original_units_after_pruning": 91,
+        "selected_units": 35,
+        "omitted_units": 56,
+        "selected_tokens": 4066,
+        "omitted_passages_after_batch_cap": 13,
+        "submitted_passages": 22
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "The_Parent_Trap_(1961_film).html",
+      "selection": {
+        "pruned_noncareer_tables": 1,
+        "original_units_after_pruning": 124,
+        "selected_units": 43,
+        "omitted_units": 81,
+        "selected_tokens": 4182,
+        "omitted_passages_after_batch_cap": 19,
+        "submitted_passages": 24
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Thirteen_Years__War_(1454–1466).html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 132,
+        "selected_units": 26,
+        "omitted_units": 106,
+        "selected_tokens": 4179,
+        "omitted_passages_after_batch_cap": 6,
+        "submitted_passages": 20
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Toronto.html",
+      "selection": {
+        "pruned_noncareer_tables": 4,
+        "original_units_after_pruning": 955,
+        "selected_units": 32,
+        "omitted_units": 923,
+        "selected_tokens": 4200,
+        "omitted_passages_after_batch_cap": 15,
+        "submitted_passages": 17
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Uniformed_services_of_the_United_States.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 99,
+        "selected_units": 34,
+        "omitted_units": 65,
+        "selected_tokens": 4184,
+        "omitted_passages_after_batch_cap": 14,
+        "submitted_passages": 20
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Vassar_College.html",
+      "selection": {
+        "pruned_noncareer_tables": 2,
+        "original_units_after_pruning": 432,
+        "selected_units": 53,
+        "omitted_units": 379,
+        "selected_tokens": 4180,
+        "omitted_passages_after_batch_cap": 26,
+        "submitted_passages": 27
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "West_Midlands_(county).html",
+      "selection": {
+        "pruned_noncareer_tables": 5,
+        "original_units_after_pruning": 373,
+        "selected_units": 49,
+        "omitted_units": 324,
+        "selected_tokens": 4189,
+        "omitted_passages_after_batch_cap": 27,
+        "submitted_passages": 22
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "William_VIII_of_Montpellier.html",
+      "selection": {
+        "pruned_noncareer_tables": 1,
+        "original_units_after_pruning": 27,
+        "selected_units": 13,
+        "omitted_units": 14,
+        "selected_tokens": 953,
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 13
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "WrestleMania_XII.html",
+      "selection": {
+        "pruned_noncareer_tables": 3,
+        "original_units_after_pruning": 105,
+        "selected_units": 37,
+        "omitted_units": 68,
+        "selected_tokens": 4197,
+        "omitted_passages_after_batch_cap": 16,
+        "submitted_passages": 21
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "Zooey_Deschanel.html",
+      "selection": {
+        "pruned_noncareer_tables": 1,
+        "original_units_after_pruning": 217,
+        "selected_units": 40,
+        "omitted_units": 177,
+        "selected_tokens": 4181,
+        "omitted_passages_after_batch_cap": 21,
+        "submitted_passages": 19
+      },
+      "status": "pending"
+    },
+    {
+      "filename": "ŽAK_Subotica.html",
+      "selection": {
+        "pruned_noncareer_tables": 0,
+        "original_units_after_pruning": 22,
+        "selected_units": 11,
+        "omitted_units": 11,
+        "selected_tokens": 1009,
+        "omitted_passages_after_batch_cap": 0,
+        "submitted_passages": 11
+      },
+      "status": "pending"
+    }
+  ],
+  "note": "Selective main-subject extraction. Structural/heuristic checks do not prove semantic accuracy. Graph is not used by retrieval.",
+  "elapsed_seconds": 22.9,
+  "quarantined_type_conflicts": [],
+  "unique_statements": 39,
+  "unique_entities": 56,
+  "unique_by_predicate": {
+    "HELD_AT": 4,
+    "CONTRIBUTED_TO": 6,
+    "RELEASE_DATE": 2,
+    "BORN_IN": 6,
+    "BIRTH_DATE": 6,
+    "LOCATED_IN": 11,
+    "PLAYED_FOR": 3,
+    "MEMBER_OF": 1
+  },
+  "partial_graph_sha256": "37c4c15083fab55c3c02e097cfd98ced27d0edaccdbbae47efe37e164e78769f",
+  "snapshot_completed_batches": 26,
+  "error": "Error code: 402 - {'error': {'message': \"This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 1964. To increase, visit https://openrouter.ai/workspaces/mo-llm-aug-2026/keys/f93a64f8114f83027522ee8098ead7161d659ceb0fcde57401966cc926c07e0e and adjust the key's total limit\", 'code': 402, 'metadata': {'limit_source': 'openrouter_key_limit', 'remedy_hint': \"Raise or remove this API key's usage limit at https://openrouter.ai/settings/keys, or use a key without a limit.\", 'provider_name': None, 'previous_errors': [{'code': 402, 'message': \"This request requires more credits, or fewer max_tokens. You requested up to 4000 tokens, but can only afford 1964. To increase, visit https://openrouter.ai/workspaces/mo-llm-aug-2026/keys/f93a64f8114f83027522ee8098ead7161d659ceb0fcde57401966cc926c07e0e and adjust the key's total limit\"}]}}, 'user_id': 'org_3GUeVSpT3jV2NrJrqk4ep27OtTi'}"
+}
